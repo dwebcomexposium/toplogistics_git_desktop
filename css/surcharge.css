@@ -5834,7 +5834,8 @@ body.article_list .cxp-pagination .la-item .la-item-content {
 .content822414 .article-wrapper .article-title::before,
 .content822432 .article-wrapper .article-title::before,
 .content822415 .article-wrapper .article-title::before,
-.content822416 .article-wrapper .article-title::before {
+.content822416 .article-wrapper .article-title::before,
+.content861618 .article-wrapper .article-title::before {
 	background-size: 145%;
 	background-repeat: no-repeat;
 	top: 96px !important;
@@ -5844,7 +5845,8 @@ body.article_list .cxp-pagination .la-item .la-item-content {
 	.content822414 .article-wrapper .article-title::before,
 	.content822432 .article-wrapper .article-title::before,
 	.content822415 .article-wrapper .article-title::before,
-	.content822416 .article-wrapper .article-title::before {
+	.content822416 .article-wrapper .article-title::before,
+	.content861618 .article-wrapper .article-title::before {
 		background-size: inherit;
 		top: 100px;
 	}
