@@ -675,24 +675,6 @@ a:hover {
    }
 }
 
-.content822402 .article-wrapper .article-title::before {
-   background-size: 145%;
-   background-repeat: no-repeat;
-   top: 96px !important;
-}
-
-@media screen and (max-width: 780px) {
-   .content822402 .article-wrapper .article-title::before {
-      background-size: 200%;
-   }
-}
-
-@media screen and (max-width: 580px) {
-   .content822402 .article-wrapper .article-title::before {
-      background-size: 310%;
-   }
-}
-
 .nf-form-submit [class^="btn"] {
    background: #366B6B;
    border: none;
@@ -3365,7 +3347,6 @@ strong {
    padding: 3rem 4rem;
 }
 
-.article-wrapper .article-title::before,
 body.article_list .main-title-with-link::before {
    content: "";
    background-image: url("/theme/toplogistics_git_desktop/img/background-header-tl.jpg");
@@ -3374,6 +3355,12 @@ body.article_list .main-title-with-link::before {
 .article-wrapper .article-title {
    position: relative;
    z-index: 0;
+}
+
+.article-wrapper .article-title::before {
+   content: "";
+   background-image: url("/theme/toplogistics_git_desktop/img/background-header-tl.jpg");
+   top: 0 !important;
 }
 
 .article-wrapper .article-title .inside {
@@ -5826,27 +5813,6 @@ body.article_list .cxp-pagination .la-item .la-item-content {
               order: 2;
       max-width: 300px;
       margin-top: 18px;
-   }
-}
-
-.content822414 .article-wrapper .article-title::before,
-.content822432 .article-wrapper .article-title::before,
-.content822415 .article-wrapper .article-title::before,
-.content822416 .article-wrapper .article-title::before,
-.content861618 .article-wrapper .article-title::before {
-   background-size: 145%;
-   background-repeat: no-repeat;
-   top: 96px !important;
-}
-
-@media screen and (max-width: 1025px) {
-   .content822414 .article-wrapper .article-title::before,
-   .content822432 .article-wrapper .article-title::before,
-   .content822415 .article-wrapper .article-title::before,
-   .content822416 .article-wrapper .article-title::before,
-   .content861618 .article-wrapper .article-title::before {
-      background-size: inherit;
-      top: 100px;
    }
 }
 
