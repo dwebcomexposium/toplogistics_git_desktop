@@ -3347,23 +3347,20 @@ strong {
    padding: 3rem 4rem;
 }
 
-body.article_list .main-title-with-link::before {
+body.article_list .main-title-with-link::before,
+.article-wrapper .article-title::before {
    content: "";
    background-image: url("/theme/toplogistics_git_desktop/img/background-header-tl.jpg");
+   background-size: cover;
+   top: 0 !important;
+   position: absolute;
+   width: 100%;
+   height: 100%;
 }
 
 .article-wrapper .article-title {
    position: relative;
    z-index: 0;
-}
-
-.article-wrapper .article-title::before {
-   content: "";
-   background-image: url("/theme/toplogistics_git_desktop/img/background-header-tl.jpg");
-   top: 0 !important;
-   position: absolute;
-   width: 100%;
-   height: 100%;
 }
 
 .article-wrapper .article-title .inside {
