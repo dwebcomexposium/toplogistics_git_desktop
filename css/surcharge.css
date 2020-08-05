@@ -37,27 +37,6 @@
    font-style: normal;
 }
 
-@font-face {
-   font-family: 'graphik-semibold';
-   src: url("/theme/toplogistics_git_desktop/fonts/graphik-semibold.woff") format("woff");
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
-   font-family: 'graphik-light';
-   src: url("/theme/toplogistics_git_desktop/fonts/graphik-light.woff");
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
-   font-family: 'graphik-bold';
-   src: url("/theme/toplogistics_git_desktop/fonts/graphik-bold.woff");
-   font-weight: normal;
-   font-style: normal;
-}
-
 html,
 body,
 div,
@@ -224,7 +203,7 @@ body {
    overflow-x: hidden;
    font-family: "open-sans-light", arial, sans-serif;
    line-height: 1.5;
-   color: #79757e;
+   color: #303B48;
    font-size: 1.6rem;
 }
 
@@ -297,7 +276,7 @@ h5 {
 .intro .ezxmltext-field {
    text-align: left;
    position: relative;
-   padding: 2rem 0rem 6rem 0;
+   padding: 2rem 0rem 0 0;
    margin: -4rem auto 0 auto;
    max-width: 79rem;
 }
@@ -462,7 +441,7 @@ a {
 }
 
 a:hover {
-   color: #79757e;
+   color: #303B48;
 }
 
 .txtcenter {
@@ -617,14 +596,14 @@ a:hover {
 
 .tt-dropdown-menu .tt-dropdown-contents .tt-dataset .tt-suggestions .tt-suggestion a:hover {
    background: inherit;
-   color: #79757e;
+   color: #303B48;
    text-decoration: underline;
 }
 
 .tt-dropdown-menu .tt-text-intro {
    text-align: left !important;
    font-size: 1.5rem;
-   color: #79757e !important;
+   color: #303B48 !important;
 }
 
 .tt-dropdown-menu .typeahead-section-name {
@@ -718,7 +697,7 @@ custom[name="factbox"] h2::before {
 
 custom[name="factbox"] p {
    margin-top: 0;
-   color: #79757e;
+   color: #303B48;
    font-size: 1.6rem;
    margin-bottom: 0;
    color: #BDC1D9;
@@ -1031,38 +1010,6 @@ a.externe.lien3:hover,
    background-color: #2B8D9F !important;
 }
 
-@-webkit-keyframes pulsate {
-   0% {
-      -webkit-transform: scale(0.1, 0.1) translate(-50%, -50%);
-              transform: scale(0.1, 0.1) translate(-50%, -50%);
-      opacity: 0;
-   }
-   30% {
-      opacity: 0.2;
-   }
-   60% {
-      -webkit-transform: scale(1.5, 1.5) translate(-50%, -50%);
-              transform: scale(1.5, 1.5) translate(-50%, -50%);
-      opacity: 0;
-   }
-}
-
-@keyframes pulsate {
-   0% {
-      -webkit-transform: scale(0.1, 0.1) translate(-50%, -50%);
-              transform: scale(0.1, 0.1) translate(-50%, -50%);
-      opacity: 0;
-   }
-   30% {
-      opacity: 0.2;
-   }
-   60% {
-      -webkit-transform: scale(1.5, 1.5) translate(-50%, -50%);
-              transform: scale(1.5, 1.5) translate(-50%, -50%);
-      opacity: 0;
-   }
-}
-
 .front .insiders-enrollment-wrap a.lien1 {
    background-color: inherit;
    color: inherit;
@@ -1297,6 +1244,10 @@ body.error404 p {
    padding: 0;
 }
 
+.insiders-separator {
+   display: none;
+}
+
 
 /* Layouts */
 
@@ -1342,7 +1293,7 @@ body.error404 p {
 
 .site-footer .nf-form-item label {
    position: absolute;
-   color: #79757e;
+   color: #303B48;
    font-family: "open-sans-light", arial, sans-serif;
    font-size: 1.4rem;
    position: absolute;
@@ -2580,7 +2531,7 @@ header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a
 
 header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 a.btn-primary:hover,
 header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary:hover {
-   color: #79757e !important;
+   color: #303B48 !important;
 }
 
 header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 a.btn-primary:focus,
@@ -2791,15 +2742,6 @@ header.site-banner .linkid861603 a {
 
 
 /* Component */
-
-.insiders-separator {
-   width: 100%;
-   background-color: #366B6B;
-}
-
-.insiders-separator.separator-2 {
-   background-color: inherit !important;
-}
 
 .content-slide p {
    color: #D1D1D1;
@@ -3469,7 +3411,7 @@ body.article_list .main-title-with-link::before,
 .article-content figure small {
    display: inherit;
    text-align: left;
-   color: #79757e;
+   color: #303B48;
    font-size: 1.2rem;
 }
 
@@ -3705,26 +3647,31 @@ body.article_list .main-title-with-link::before,
 }
 
 .cl-content .cl-item .cl-item-content .cl-item-email {
-   color: #79757e;
+   color: #303B48;
    font-size: 1.4rem;
    line-height: 2.2rem;
    margin: 0;
 }
 
 .cl-content .cl-item .cl-item-content .cl-item-email a {
-   color: #79757e;
+   color: #303B48;
    font-size: 1.2rem;
    display: block;
 }
 
 .cl-content .cl-item .cl-item-content .cl-item-phone {
    margin: 0;
-   color: #79757e;
+   color: #303B48;
    font-size: 1.4rem;
 }
 
+table tr td p {
+   margin-top: .5rem !important;
+   margin-bottom: .5rem !important;
+}
+
 table tr:first-child td {
-   background: #D1D1D1;
+   background: #366B6B;
    height: 5.5rem;
    vertical-align: middle !important;
 }
@@ -3733,6 +3680,8 @@ table tr:first-child p {
    color: white;
    text-align: center;
    margin: 0;
+   font-family: "josefin-sans-bold", arial, sans-serif;
+   margin: inherit !important;
 }
 
 table tr:first-child td {
@@ -3861,7 +3810,7 @@ body.faq .intro::after {
 body.faq .intro p {
    font-size: 2.2rem;
    font-family: "open-sans-light", arial, sans-serif;
-   color: #79757e;
+   color: #303B48;
    font-weight: bold;
 }
 
@@ -3983,7 +3932,7 @@ body.faq .faq-summary {
 }
 
 .front main h3 {
-   color: #79757e !important;
+   color: #303B48 !important;
 }
 
 .front main .site-wrapper.wrapper {
@@ -4106,7 +4055,7 @@ body.faq .faq-summary {
 }
 
 .front .article-focus.landing p:nth-child(4) {
-   font-family: "graphik-semibold", arial, sans-serif;
+   font-family: "open-sans-semi-bold", arial, sans-serif;
    font-size: 2.6rem;
    line-height: 4.6rem;
    color: #A6ACD2;
@@ -4790,7 +4739,6 @@ body.faq .faq-summary {
 .front .become-partners img {
    float: none;
    display: block;
-   border-bottom: 4px solid #2E294E;
    position: absolute;
    top: 50%;
    margin: 0;
@@ -5764,6 +5712,9 @@ body.article_list .cxp-pagination .la-item .link-read-more {
    font-family: "open-sans-bold", arial, sans-serif;
    color: #050924;
    font-size: 1.4rem;
+   color: #366B6B !important;
+   margin-left: 0;
+   padding-left: 0 !important;
 }
 
 body.article_list .cxp-pagination .la-item .link-read-more::after {
@@ -5859,7 +5810,7 @@ body.error404 .ep-intro .main-title::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("/theme/toplogistics_git_desktop/img/background-header.jpg");
+   background-image: url("/theme/toplogistics_git_desktop/img/background-header-tl.jpg");
    background-size: cover;
 }
 
