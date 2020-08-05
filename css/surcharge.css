@@ -437,11 +437,11 @@ em {
 }
 
 a {
-   color: #2E294E;
+   color: #FFD016;
 }
 
 a:hover {
-   color: #303B48;
+   color: #366B6B;
 }
 
 .txtcenter {
@@ -1251,7 +1251,7 @@ body.error404 p {
 .btn-primary:focus,
 .btn-primary:hover,
 .btn-primary:active {
-   background-color: transparent !important;
+   background-color: white;
    border-color: inherit !important;
 }
 
@@ -1909,6 +1909,13 @@ header.site-banner>.inside .main-navigation {
        flex-basis: calc(100% - 343px);
 }
 
+@media screen and (max-width: 1240px) {
+   header.site-banner>.inside .main-navigation {
+      -ms-flex-preferred-size: calc(92% - 343px);
+          flex-basis: calc(92% - 343px);
+   }
+}
+
 header.site-banner>.inside .main-navigation .mn-menu-line ul li .mn-menu-submenu li a {
    background: #255959 !important;
    -webkit-filter: inherit;
@@ -1933,8 +1940,8 @@ header.site-banner>.inside .main-navigation .mn-menu-line ul li .mn-menu-submenu
       width: 100%;
       position: absolute;
       top: 105px;
-      background: #000;
-      height: calc(100vh - 105px);
+      background: #003239;
+      height: calc(100vh - 25px) !important;
       overflow-y: scroll;
    }
 }
@@ -2221,6 +2228,13 @@ header.site-banner .linkid861600 a:active {
    background-color: transparent !important;
 }
 
+@media screen and (max-width: 1025px) {
+   header.site-banner .linkid861599,
+   header.site-banner .linkid861600 {
+      display: none;
+   }
+}
+
 header.site-banner .top-header {
    margin-left: 1.4rem;
    -webkit-box-ordinal-group: 3;
@@ -2255,7 +2269,7 @@ header.site-banner .top-header .date-salon {
       left: 0;
       position: absolute;
       color: white;
-      border-bottom: 1px solid #3a3d52;
+      border-bottom: 1px solid #FFD016;
       width: 100%;
       text-align: left;
    }
@@ -2378,9 +2392,15 @@ header.site-banner .mn-menu.mn-menu-lvl1.unstyled {
    width: 75.5%;
 }
 
+@media screen and (max-width: 1240px) {
+   header.site-banner .mn-menu.mn-menu-lvl1.unstyled {
+      width: 86%;
+   }
+}
+
 @media screen and (max-width: 1200px) {
    header.site-banner .mn-menu.mn-menu-lvl1.unstyled {
-      width: 78.8%;
+      width: 81%;
    }
 }
 
@@ -2393,9 +2413,31 @@ header.site-banner .mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-861631::before {
    position: absolute;
    background-image: url(/theme/toplogistics_git_desktop/img/logo-tl.svg);
    background-repeat: no-repeat;
-   width: 192px;
-   height: 110px;
-   right: 177px;
+   width: 19.2rem;
+   height: 11rem;
+   right: 17.7rem;
+}
+
+@media screen and (max-width: 1240px) {
+   header.site-banner .mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-861631::before {
+      background-size: 78%;
+      right: 12.7rem;
+      top: 1rem;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   header.site-banner .mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-861631::before {
+      background-size: 73%;
+      right: 11.7rem;
+      top: 1.4rem;
+   }
+}
+
+@media screen and (max-width: 1025px) {
+   header.site-banner .mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-861631::before {
+      display: none;
+   }
 }
 
 @media screen and (max-width: 1024px) {
@@ -2405,6 +2447,7 @@ header.site-banner .mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-861631::before {
           -ms-flex-direction: column;
               flex-direction: column;
       margin-bottom: 132px;
+      width: 100%;
    }
 }
 
@@ -2448,6 +2491,12 @@ header.site-banner nav .mn-menu-line {
    -webkit-box-pack: end;
        -ms-flex-pack: end;
            justify-content: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+   header.site-banner nav .mn-menu-line {
+      margin-bottom: 7.7rem;
+   }
 }
 
 header.site-banner nav .mn-menu-line>.mn-menu-lvl1>li>a {
@@ -2668,6 +2717,7 @@ header.site-banner .linkid861603 a {
 @media screen and (max-width: 1200px) {
    header.site-banner .linkid861603 a {
       font-size: 1.2rem;
+      padding: 2.7rem;
    }
 }
 
@@ -3359,7 +3409,7 @@ body.article_list .main-title-with-link::before,
 }
 
 .article-content p:first-child {
-   margin-top: 3.5rem;
+   margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -3614,12 +3664,14 @@ body.article_list .main-title-with-link::before,
    width: 100%;
 }
 
-.cl-content .cl-item .cl-item-illust {
+.cl-content .cl-item .cl-item-illust,
+.cl-content .cl-item .cl-item-photo {
    margin-bottom: 1rem;
    background-color: #ececec;
 }
 
-.cl-content .cl-item .cl-item-illust img {
+.cl-content .cl-item .cl-item-illust img,
+.cl-content .cl-item .cl-item-photo img {
    min-width: 15rem;
    min-height: 15rem;
    width: 100%;
