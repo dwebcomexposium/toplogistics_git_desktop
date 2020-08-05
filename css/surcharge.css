@@ -276,7 +276,7 @@ h5 {
 .intro .ezxmltext-field {
    text-align: left;
    position: relative;
-   padding: 2rem 0rem 0 0;
+   padding: 2rem 0rem 6rem 0 !important;
    margin: -4rem auto 0 auto;
    max-width: 79rem;
 }
@@ -1246,6 +1246,13 @@ body.error404 p {
 
 .insiders-separator {
    display: none;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+   background-color: transparent !important;
+   border-color: inherit !important;
 }
 
 
