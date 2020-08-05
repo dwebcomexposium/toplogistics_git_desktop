@@ -5718,7 +5718,7 @@ body.article_list .cxp-pagination .la-item .link-read-more {
 }
 
 body.article_list .cxp-pagination .la-item .link-read-more::after {
-   content: url("/theme/toplogistics_git_desktop/img/arrow-turquoise.svg");
+   content: url("/theme/toplogistics_git_desktop/img/arrow-green.svg");
    padding-left: 1rem;
 }
 
