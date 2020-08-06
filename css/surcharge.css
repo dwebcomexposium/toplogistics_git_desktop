@@ -668,10 +668,18 @@ a:hover {
 custom[name="factbox"] h2,
 custom[name="factbox"] p,
 custom[name="factbox"] a.externe {
-   background: #050924;
-   background-color: #151832;
-   background-image: url(/theme/toplogistics_git_desktop/img/pattern.png);
+   background: #366B6B;
+   background-color: #366B6B;
    background-position: top 1px left;
+}
+
+custom[name="factbox"] p {
+   margin-top: 0;
+   color: #303B48;
+   font-size: 1.6rem;
+   margin-bottom: 0;
+   color: white;
+   padding: 0 8.5rem 2.5rem 8rem !important;
 }
 
 custom[name="factbox"] p:nth-child(4) {
@@ -688,6 +696,12 @@ custom[name="factbox"] h2 {
    padding: 4.5rem 1.5rem 1.5rem 12.8rem !important;
 }
 
+@media screen and (max-width: 768px) {
+   custom[name="factbox"] h2 {
+      padding: 4.5rem 1.5rem 1.5rem 13rem !important;
+   }
+}
+
 custom[name="factbox"] h2::before {
    content: url(/theme/toplogistics_git_desktop/img/icon-interro.svg);
    position: absolute;
@@ -695,18 +709,15 @@ custom[name="factbox"] h2::before {
    top: 52px;
 }
 
-custom[name="factbox"] p {
-   margin-top: 0;
-   color: #303B48;
-   font-size: 1.6rem;
-   margin-bottom: 0;
-   color: #BDC1D9;
-   padding: 0 8.5rem 2.5rem 8rem !important;
+@media screen and (max-width: 1200px) {
+   custom[name="factbox"] h2::before {
+      left: 60px !important;
+      top: 38px !important;
+   }
 }
 
 custom[name="factbox"] a.externe {
-   background: #E38500;
-   border: 3px solid #E38500;
+   background: #FFD016;
    font-family: "open-sans-bold", arial, sans-serif;
    font-size: 1.2rem;
    line-height: 2.8rem;
@@ -715,35 +726,13 @@ custom[name="factbox"] a.externe {
    border-radius: 2px;
    display: inline-block;
    text-transform: uppercase;
-   text-decoration: underline !important;
-}
-
-custom[name="factbox"] a.externe:hover {
-   background-color: transparent !important;
-   background: transparent;
-}
-
-custom[name="factbox"] a.externe {
-   padding: 1.8rem 2.8rem;
    text-decoration: none !important;
+   padding: 1.8rem 2.8rem;
+   border: none;
 }
 
 custom[name="factbox"] a.externe:hover {
-   border-color: #fd9400 !important;
-   color: white;
-}
-
-@media screen and (max-width: 768px) {
-   custom[name="factbox"] h2 {
-      padding: 4.5rem 1.5rem 1.5rem 13rem !important;
-   }
-}
-
-@media screen and (max-width: 1200px) {
-   custom[name="factbox"] h2::before {
-      left: 60px !important;
-      top: 38px !important;
-   }
+   background: #ffdc53 !important;
 }
 
 .flex {
@@ -879,6 +868,14 @@ a.lien2::after,
            align-items: center;
 }
 
+.focus2 a.lien2 {
+   background: none;
+}
+
+.focus2 a.lien2:hover {
+   background: none;
+}
+
 a.link-view-all,
 a.externe:not(.lien1),
 a.lien2,
@@ -922,23 +919,15 @@ p.style4 .pdf,
 p.style4 .zip {
    background-color: #f2f2f2;
    border-color: #f2f2f2;
-   color: #D1D1D1;
+   color: #303B48;
    text-transform: none;
-}
-
-p.style3 .pdf:after,
-p.style3 .zip:after,
-p.style4 .pdf:after,
-p.style4 .zip:after {
-   content: url("/theme/toplogistics_git_desktop/img/arrow-turquoise.svg");
-   margin-left: 1rem;
 }
 
 p.style3 .pdf:hover,
 p.style3 .zip:hover,
 p.style4 .pdf:hover,
 p.style4 .zip:hover {
-   background-color: white;
+   background-color: #f7f7f7;
 }
 
 .focus2.txtcenter a.externe.lien2,
@@ -2808,6 +2797,7 @@ header.site-banner .linkid861603 a {
    font-size: 2.2rem;
    line-height: 3.5rem;
    font-family: "open-sans-light", arial, sans-serif;
+   font-weight: lighter !important;
 }
 
 .previous_btn {
@@ -2829,7 +2819,7 @@ header.site-banner .linkid861603 a {
 }
 
 .author-slide p {
-   color: #366B6B;
+   color: white;
    font-size: 1.6rem;
    line-height: 2.3rem;
 }
@@ -2840,15 +2830,18 @@ header.site-banner .linkid861603 a {
 }
 
 .slider-perso-container {
-   background: #050924;
    width: 100vw !important;
    margin-left: 50% !important;
    -webkit-transform: translateX(-50%) !important;
        -ms-transform: translateX(-50%) !important;
            transform: translateX(-50%) !important;
    padding: 13rem 0 17.5rem 0;
-   background-color: #474044;
+   background-color: #366B6B;
    position: relative;
+}
+
+.slider-perso-container .content-slide p {
+   color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -2909,7 +2902,7 @@ header.site-banner .linkid861603 a {
 }
 
 .slider-perso-container .slider-perso a.slide_btn {
-   color: #585055;
+   color: rgba(255, 208, 22, 0.31);
    font-size: 60px;
    margin: 0 0.175em;
    -webkit-transition: all 0.4s ease-in-out;
@@ -2919,7 +2912,7 @@ header.site-banner .linkid861603 a {
 
 .slider-perso-container .slider-perso .slide_btn.active,
 .slider-perso-container .slider-perso .slide_btn:hover {
-   color: #F7F7F8;
+   color: #FFD016;
    cursor: pointer;
 }
 
