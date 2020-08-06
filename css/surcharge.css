@@ -3764,6 +3764,28 @@ iframe {
    position: absolute;
 }
 
+.player-video {
+   height: 80.4rem;
+   width: 100%;
+   position: relative;
+   background: white;
+}
+
+.player-video h2 {
+   margin: 9.5rem 0 6.5rem 0 !important;
+}
+
+.player-video iframe {
+   position: absolute;
+   width: 92rem;
+   height: 49rem;
+   left: 50%;
+   -webkit-transform: translate(-50%);
+       -ms-transform: translate(-50%);
+           transform: translate(-50%);
+   top: 24%;
+}
+
 @media screen and (max-width: 768px) {
    body.contact .cl-content .cl-item>* {
       width: 125%;
@@ -4451,6 +4473,13 @@ body.faq .faq-summary {
 
 .front .insiders-enrollment-wrap .block-page {
    margin-bottom: 12rem;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
@@ -4911,6 +4940,7 @@ body.faq .faq-summary {
 
 .front .become-insider {
    padding-left: 65rem;
+   padding-top: 14rem;
 }
 
 @media screen and (max-width: 1440px) {
@@ -4976,6 +5006,7 @@ body.faq .faq-summary {
    -webkit-transform: translate(-50%, -50%);
        -ms-transform: translate(-50%, -50%);
            transform: translate(-50%, -50%);
+   top: 43.5rem;
 }
 
 @media screen and (max-width: 920px) {
