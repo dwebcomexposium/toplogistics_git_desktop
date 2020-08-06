@@ -1255,6 +1255,10 @@ body.error404 p {
    border-color: inherit !important;
 }
 
+.loading.nf-loading {
+   display: none;
+}
+
 
 /* Layouts */
 
@@ -1292,6 +1296,7 @@ body.error404 p {
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
+   margin-bottom: 1rem;
 }
 
 .site-footer .nf-form-item p:nth-child(2) {
@@ -1304,7 +1309,7 @@ body.error404 p {
    font-family: "open-sans-light", arial, sans-serif;
    font-size: 1.4rem;
    position: absolute;
-   bottom: 8.7rem;
+   bottom: 9.7rem;
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input {
@@ -1400,7 +1405,7 @@ body.error404 p {
    -webkit-box-shadow: none;
            box-shadow: none;
    background: #FFD016 !important;
-   color: #366B6B;
+   color: #065050;
 }
 
 .site-footer .newsletter-form .nf-main-content [class^=btn]:hover {
@@ -1601,9 +1606,7 @@ body.error404 p {
 }
 
 .site-footer .nav-footer {
-   display: -webkit-box !important;
-   display: -ms-flexbox !important;
-   display: flex !important;
+   display: none !important;
    -webkit-box-pack: center;
        -ms-flex-pack: center;
            justify-content: center;
@@ -4040,7 +4043,7 @@ body.faq .faq-summary {
 .front .article-focus.landing p {
    margin: 0;
    color: #fff !important;
-   text-transform: uppercase;
+   text-transform: initial;
    font-weight: inherit !important;
 }
 
@@ -5846,8 +5849,28 @@ body.error404 p {
    text-align: center;
 }
 
+body.error404 .ezxmltext-field {
+   padding-bottom: 0 !important;
+}
+
 body.error404 .ezxmltext-field p {
    margin: 20px 0 15px 0;
+}
+
+body.error404 .nf-form-submit {
+   margin-top: 0 !important;
+}
+
+body.error404 h2.nf-title {
+   margin-bottom: 2.5rem;
+}
+
+body.error404 .nf-form-item {
+   margin-bottom: 1rem;
+}
+
+body.error404 .nf-form-item label {
+   bottom: 8.8rem !important;
 }
 
 body.error404 .ep-intro .main-title {
