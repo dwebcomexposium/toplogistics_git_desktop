@@ -3795,7 +3795,7 @@ iframe {
 
 @media screen and (max-width: 768px) {
    .player-video {
-      height: 66rem !important;
+      height: 18rem !important;
    }
 }
 
@@ -5102,7 +5102,6 @@ body.faq .faq-summary {
 @media screen and (max-width: 1024px) {
    .front .become-insider .lien1 {
       max-width: 31rem;
-      margin-bottom: 26px !important;
    }
 }
 
@@ -5146,7 +5145,6 @@ body.faq .faq-summary {
 
 @media screen and (max-width: 768px) {
    .front .become-insider .lien2 {
-      margin-top: 4rem !important;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
