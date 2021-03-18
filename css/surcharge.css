@@ -6288,3 +6288,8 @@ body.search .box-light .inside .form-txt {
 .content756427 .sm-list-item li a:hover {
    color: #366B6B;
 }
+
+
+.front .insiders-advantages .inside .la-list article {
+    flex-basis: 50%;
+}
