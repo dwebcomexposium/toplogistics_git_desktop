@@ -6293,3 +6293,8 @@ body.search .box-light .inside .form-txt {
 .front .insiders-advantages .inside .la-list article {
     flex-basis: 50%;
 }
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+    background-color: transparent;
+    border-color: inherit !important;
+}
