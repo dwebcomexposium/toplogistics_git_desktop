@@ -6327,3 +6327,5 @@ Increase width in order to cover background buttons on mobile
 iframe {
     position: relative;
 }
+.front .article-focus.landing {
+   background-image: url(/theme/toplogistics_git_desktop/img/TLE23_HOME.jpg);}
